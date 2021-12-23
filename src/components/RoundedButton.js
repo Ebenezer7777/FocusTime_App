@@ -27,9 +27,11 @@ StyleSheet.create ({
     borderRadius: size/2,
     width: size,
     height: size,
-    alignItems: 'center',
+    alignItems: "center",
+    justifyContent: 'center',
     borderColor: "#fff",
-    borderWidth: 2
+    borderWidth: 3
+    
   },
-  text: {color: '#fff' , fontSize: size/2},
+  text: {color: '#fff' , fontSize: size/3},
 });
